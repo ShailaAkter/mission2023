@@ -200,7 +200,7 @@ i
 .call-btn-primary
 {
     padding: 10px 20px;
-    font-size: 20px;
+    font-size: 25px;
     background-color: #FFFFFF;
     color: rgb(0, 0, 0);
     border: 1px solid #737272;
@@ -212,4 +212,61 @@ i
 {
     background-color: #000000;
     color: white;
+}
+
+/* footer section */
+footer
+{
+    background-color: #151414;
+    height: 50vh;
+    padding-top: 20px;
+}
+
+.footer-section
+{
+    padding-top: 100px;
+}
+
+.footer-info
+{
+    width: 50%;
+}
+
+.footer-title
+{
+    color: #F8F8F8;
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+
+.footer-description
+{
+    font-size: 16px;
+    padding-top: 10px;
+    color: #FFFFFF;
+}
+
+input
+{
+    padding: 20px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+input::placeholder
+{
+    color:#FFFFFF;
+}
+
+.footer-icon
+{
+    padding-top: 30px;
+}
+
+.footer-btn
+{
+    padding-top: 20px;
 }
