@@ -1,0 +1,75 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* header section */
+.header
+{
+    height: 100vh;
+    background-image: url('images/banner.png');
+    background-repeat: no-repeat;
+}
+
+.header-container
+{
+    height: 100vh;
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    text-align: right;
+    align-items: center;
+    margin-right: 200px;
+    float: right;
+    width: 50%;
+}
+
+.header-title
+{
+    padding-bottom: 20px;
+    font-size: 45px;
+    font-weight: bold;
+
+}
+
+.header-description
+{
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+.btn-primary
+{
+    padding: 10px 20px;
+}
+
+
+
+/* achievement section */
+
+.achievement-section, .plan-section, .call-section, .footer-section
+{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 50px;
+}
+
+.achievement-details
+{
+   width: 50%;
+}
+
+
+/* my plans section */
+.plan-section
+{
+    text-align: center;
+}
+
+
