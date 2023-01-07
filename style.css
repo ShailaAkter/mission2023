@@ -13,6 +13,7 @@
     height: 100vh;
     background-image: url('images/banner.png');
     background-repeat: no-repeat;
+    margin-bottom: 200px;
 }
 
 .header-container
@@ -74,11 +75,45 @@
     padding: 50px;
 }
 
+.achievement-image
+{
+    margin-bottom: 200px;
+}
+
 .achievement-details
 {
    width: 50%;
+   margin-bottom: 150px;
 }
 
+.achievement-title, .plan-title
+{
+    font-weight: 700;
+    color: #151414;
+    font-size: 40px;
+    line-height: 45px;
+    margin-bottom: 50px;
+
+}
+
+.achievement-description
+{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+li
+{
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+i
+{
+    padding-right: 20px;
+    color: green;
+}
 
 /* my plans section */
 .plan-section
@@ -86,6 +121,10 @@
     text-align: center;
 }
 
+.plan-title
+{
+    text-align: center;
+}
 
 /* gallery section */
 .gallery
